@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: lightblue;
+}
+
+table{
+    background-color: white;
+
+}
+tr > td{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(225, 225, 225);
+}
+
+tr > td{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(225, 225, 225);
+}
