@@ -55,7 +55,6 @@ const LeftEdge = [
 
 
 const BottomEdge = [
-    0,
     1,
     2,
     3,
@@ -98,7 +97,7 @@ const BottomEdge = [
     40,
     41,
     42,
-    43
+    43,
 ]
 
 
@@ -186,14 +185,9 @@ window.addEventListener("keydown", (e) =>{
                     position()            }
         }
         if(e.keyCode == 38 && a > 47){
-            if (!BottomEdge.includes(a)){
-                // document.querySelectorAll("td")[a].style.backgroundColor = "rgb(225, 225, 225)"
-                    a = (a - 1);
-                    position()             }
-                if (BottomEdge.includes(a)){
-                    // document.querySelectorAll("td")[a].style.backgroundColor = "rgb(225, 225, 225)"
-                    a = (a + 47);
-                    position()            }
+            // document.querySelectorAll("td")[a].style.backgroundColor = "rgb(225, 225, 225)"
+            a = (a - 48);
+            position()
         }
     
     }
